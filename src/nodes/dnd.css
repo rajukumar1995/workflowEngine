@@ -1,0 +1,104 @@
+.dndflow {
+    /* flex-direction: column;
+    display: flex;
+    flex-grow: 1; */
+    width: 100%;
+    height: 100vh;
+    font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
+  }
+  
+  .dndflow aside {
+    padding: 15px 10px;
+    font-size: 16px;
+    background: linear-gradient(
+      to right,
+      rgba(227, 227, 227, 1) 0%,
+      rgba(219, 219, 219, 1) 51%,
+      rgba(254, 254, 254, 1) 99%,
+      rgba(255, 255, 255, 1) 100%
+    );
+    resize: both;
+    overflow: auto;
+    position: absolute;
+    top: 10%;
+    z-index: 5;
+    border-top-right-radius: 8px;
+    border-bottom-right-radius: 8px;
+    box-shadow: 6px 2px 14px -9px rgba(235, 223, 235, 1);
+    max-height: 100%;
+    min-width: 150px;
+  }
+  
+  .dndflow .dndnode {
+    height: 20px;
+    padding: 4px;
+    border-radius: 2px;
+    margin-bottom: 5px;
+    text-align: center;
+    cursor: grab;
+    color: white;
+    transition: all 0.1s ease;
+  }
+  .dndflow .dndnode:hover {
+    transform: scale(1.1);
+  }
+  
+  .dndflow .dndnode.common {
+    background: rgb(85, 85, 85);
+  }
+  
+  .dndflow .dndnode.functions {
+    background: rgb(85, 85, 85);
+  }
+  .dndflow .dndnode.network {
+    background: #c22ecf;
+  }
+  .dndflow .dndnode.sequences {
+    background: #e75c1b;
+  }
+  .dndflow .dndnode.storage {
+    background: #058516;
+  }
+  
+  /* .dndflow .dndnode.special {
+    background-color: #36096d;
+    background-image: linear-gradient(315deg, #36096d 0%, #37d5d6 74%);
+    color: aqua;
+  } */
+  .dndflow .dndnode.special.donut {
+    background-color: #36096d;
+    background-image: linear-gradient(315deg, #36096d 0%, #37d5d6 74%);
+    color: aqua;
+  }
+  .dndflow .dndnode.special.latex {
+    background-color: #332546;
+    color: white;
+  }
+  
+  .dndflow .reactflow-wrapper {
+    height: 100%;
+  }
+  
+  @media screen and (min-width: 768px) {
+    .dndflow {
+      flex-direction: row;
+    }
+  
+    .dndflow aside {
+      width: 7%;
+      border-right: 1px solid black;
+      max-width: 500px;
+      min-width: 100px;
+    }
+  }
+  @import url("https://fonts.googleapis.com/css2?family=Raleway:wght@400;700&display=swap");
+  */
+  *,
+  *::before,
+  *::after {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "MyWebFont";
+  }
+  

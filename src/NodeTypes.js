@@ -1,0 +1,16 @@
+export const INPUT = "Set Variables";
+export const NOTIFICATION = "Notification";
+export const PARSER = "Parser";
+export const COMBINE = "Combine";
+export const SWITCH = "Switch";
+export const DELAY = "Delay";
+export const SERIAL_PORT = "SerialPort";
+export const ETHERNET = "Ethernet";
+export const SPLIT = "Split";
+export const JOIN = "Join";
+export const BATCH = "Batch";
+export const SORT = "Sort";
+export const FILE_IN = "FileIn";
+export const FILE_OUT = "FileOut";
+export const DONUT = "Donut";
+export const LATEX = "Latex";
